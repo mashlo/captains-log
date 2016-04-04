@@ -6,9 +6,9 @@ baseurl:     "/captains-log"
 url:         "https://github.com/mashlo/captains-log" 
 
 # Social Links
-email:            your-email@domain.com
-twitter_username: yourtwitterusername
-github_username:  yourgithubusername
+email:            safe@masha.space
+twitter_username: mashasafina
+github_username:  mashlo
 
 # Build settings
 markdown: kramdown
