@@ -44,7 +44,6 @@ _sass
 
 css
   |-- main.scss
-
 ```
 
 and is imported as partial in `main.scss` before everything else.
@@ -67,7 +66,6 @@ To use one of the preset color schemes simply replace `_default.scss` partial wi
 @import 'reset';
 @import 'base';
 ...
-
 ```
 
 Ta-da! 🎉
