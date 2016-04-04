@@ -47,23 +47,20 @@ css
 
 ```
 
-and imported as a partial in `main.scss` before everything else.
+and is imported as partial in `main.scss` before everything else.
 
 ```
-
 // theme variables go first
 @import 'themes/default';
 
 @import 'reset';
 @import 'base';
 ...
-
 ```
 
 To use one of the preset color schemes simply replace `_default.scss` partial with desired from `_sass\themes` directory:
 
 ```
-
 // theme variables go first
 @import 'themes/sweet-like-will';
 
