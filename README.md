@@ -15,10 +15,7 @@ Fork repository first 👆 Instal jekyll, clone repo & start jekyll server.
 $ gem install jekyll
 $ git clone git@github.com:mashlo/captains-log.git
 $ cd captains-log
-$ jekyll serve --watch
 ```
-
-See your site localy at `localhost:4000` ✨
 
 ## Update `_config.yml`
 
@@ -41,6 +38,14 @@ github_username:  username
 markdown: kramdown
 permalink: pretty
 ```
+
+### Run Jekyll
+
+```
+$ jekyll serve --watch
+```
+
+View your site localy at `localhost:4000` ✨  
 
 ## Style Customization
 
