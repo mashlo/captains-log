@@ -2,15 +2,27 @@
 
 [live demo](http://mashlo.github.io/captains-log/)
 
-Captain’s log is a minimalistic & responsive theme for Jekyll. It has several color scheme options, but it's ~~should be~~ easy to create your own!
+Captain’s log is a minimalistic & responsive theme for Jekyll. It has several color scheme options and is em/rem based, so it's ~~should be~~ easy to customize it to your own taste!
 
 ![screenshot](https://raw.githubusercontent.com/mashlo/captains-log/gh-pages/assets/preview.png)
 
-This theme is made by [Masha Safina](http://masha.space)
+This theme is made by [Masha Safina](http://masha.space) for blogging porpoises.
+
+## Get Started
+Fork repository first 👆 Instal jekyll, clone repo & start jekyll server.
+
+```
+$ gem install jekyll
+$ git clone git@github.com:mashlo/captains-log.git
+$ cd captains-log
+$ jekyll serve --watch
+```
+
+See your site localy at `localhost:4000` ✨
 
 ## Update `_config.yml`
 
-Don't forget to update `_config.yml` file located in the root of the theme
+Don't forget to update `_config.yml` file located in the root of the theme (to not have my email and twitter linked)
 
 ```
 # Site settings
@@ -28,10 +40,9 @@ github_username:  username
 # Build settings
 markdown: kramdown
 permalink: pretty
-
 ```
 
-## Customization
+## Style Customization
 
 The `_default.scss` located in the `_sass\themes` directory contains default variables for the base b/w color scheme. 
 
@@ -66,6 +77,23 @@ To use one of the preset color schemes simply replace `_default.scss` partial wi
 @import 'reset';
 @import 'base';
 ...
+```
+
+To customize it further tweak the following vars in `_sass\themes\_default.scss` (or created a separate file).
+
+```
+$font-size-base:   18px;     // base body font size, the rest are REM based
+$line-height-base: 1.5;      // base line height
+$font-size-mobile: 14px;     // font size after break point 
+
+$text-color:       #fff;                     // main copy color
+$text-color-light: rgba($text-color, 0.4);   // dates & footer copy
+$title-color:      #0dccd1;                  // post title color on post page
+
+$background-color: #3b3056;   // main background color
+
+$brand-color-base: #f76067;   // main accent color
+$brand-color-sub:  #0dccd1;   // secondary accent color
 ```
 
 Ta-da! 🎉
