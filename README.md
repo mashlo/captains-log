@@ -2,7 +2,7 @@
 
 [live demo](http://mashlo.github.io/captains-log/)
 
-Captain’s log is a minimalistic & responsive theme for Jekyll. It has several color scheme options and is em/rem based, so it's ~~should be~~ easy to customize it to your own taste!
+Captain’s log is a minimalistic & responsive theme for [Jekyll](https://jekyllrb.com/). It has several color scheme options and is em/rem based, so it's ~~should be~~ easy to customize it to your own taste!
 
 ![screenshot](https://raw.githubusercontent.com/mashlo/captains-log/gh-pages/assets/preview.png)
 
