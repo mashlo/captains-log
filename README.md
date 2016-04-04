@@ -84,7 +84,7 @@ To use one of the preset color schemes simply replace `_default.scss` partial wi
 ...
 ```
 
-To customize it further tweak the following vars in `_sass\themes\_default.scss` (or created a separate file).
+To customize it further tweak the following vars in `_sass\themes\_default.scss` (or create a separate file).
 
 ```
 $font-size-base:   18px;     // base body font size, the rest are REM based
