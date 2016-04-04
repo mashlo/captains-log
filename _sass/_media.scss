@@ -1,0 +1,18 @@
+@media only screen and (max-width: $reflow-point) {
+  html {
+    font-size: $font-size-mobile;
+  }
+  body {
+    padding: 0 2em;
+  }
+  .site-wrap {
+    padding: 0 0 14em;
+  }
+  .footer-col {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2em;
+    text-align: left;
+  }
+}

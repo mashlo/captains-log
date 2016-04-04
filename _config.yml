@@ -1,0 +1,15 @@
+# Site settings
+title:       Captains-log
+author:      Masha Safina
+description: ":rocket: A responsive Jekyll theme based on my personal internet site"
+baseurl:     "/captains-log" 
+url:         "https://github.com/mashlo/captains-log" 
+
+# Social Links
+email:            your-email@domain.com
+twitter_username: yourtwitterusername
+github_username:  yourgithubusername
+
+# Build settings
+markdown: kramdown
+permalink: pretty

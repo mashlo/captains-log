@@ -1,0 +1,29 @@
+.site-header {
+  position: relative;
+  padding: 1em 0 4em;
+}
+
+.site-title {
+  padding: 1px 0;
+  color: $title-color;
+}
+
+/* Nav */
+
+.site-nav {
+  float: right;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    display: inline;
+    padding: 1px 0;
+    margin-left: 1em;
+    
+    &:hover {
+      color: $white-color;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+---
+# Import partials from `_sass`
+---
+@charset "utf-8";
+
+/*!
+* Captain’s log - A responsive Jekyll theme.
+* @author Masha Safina <safe@masha.space> (http://masha.space/)
+* @link https://github.com/mashlo/captains-log
+*/
+
+// theme variables go first
+@import 'themes/default';
+
+@import 'reset';
+
+@import 'mixins';
+@import 'type';
+@import 'base';
+
+@import 'header';
+@import 'footer';
+
+@import 'page';
+@import 'post';
+@import 'syntax-highlighting';
+
+// media queries
+@import 'media';
