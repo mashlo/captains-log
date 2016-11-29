@@ -2,8 +2,8 @@
 title:       Captains-log
 author:      Masha Safina
 description: ":rocket: A responsive Jekyll theme based on my personal internet site"
-baseurl:     "/captains-log" 
-url:         "https://mashlo.github.io" 
+baseurl:     "/blog" 
+url:         "https://timuu.github.io" 
 
 # Social Links
 email:            safe@masha.space
