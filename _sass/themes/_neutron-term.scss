@@ -1,0 +1,40 @@
+// Typography
+$font-family-base: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family-sub: 'Lucida Console', Monaco, monospace;  
+
+$font-size-base:   15px;
+$line-height-base: 1.5;
+
+$font-size-mobile: 12px;
+
+$font-weight-base-normal: 500;
+$font-weight-base-bold:   700;
+
+$font-weight-sub-normal:  400;
+$font-weight-sub-bold:    700;
+
+$font-size-small: 0.65rem;
+
+$spacing-unit: 1em;
+
+// Color Scheme
+$text-color:            #7eaac7;
+$text-color-light:      #bbb;
+$title-color:           #ebc17a;
+
+$background-color:      #1a1a1a;
+
+$brand-color-base:      #bc5633;
+$brand-color-sub:       #bc5653;
+
+$white-color:           #fff;
+
+$grey-color:   lighten($text-color-light, 20%);
+$border-color: lighten($text-color-light, 20%);
+
+// Max width of the content area
+$content-width: 1200px;
+
+// Breakpoints
+$reflow-point: 900px;
+
