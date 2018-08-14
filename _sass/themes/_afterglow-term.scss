@@ -1,6 +1,6 @@
 // Typography
 $font-family-base: 'Open Sans', Helvetica, Arial, sans-serif;
-$font-family-sub: 'Lucida Console', Monaco, monospace;  
+$font-family-sub: 'Lucida Console', Monaco, monospace;
 
 $font-size-base:   15px;
 $line-height-base: 1.5;
@@ -36,5 +36,4 @@ $border-color: lighten($text-color-light, 20%);
 $content-width: 1200px;
 
 // Breakpoints
-$reflow-point: 900px;
-
+$reflow-point: 1260px;
